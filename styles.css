@@ -1,0 +1,203 @@
+/* Index page css -- Done by Faisal Javid */
+
+
+#header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 50px;
+}
+
+.text-box p{
+    margin: 20px 0 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.learnmore-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 5px solid;
+    border-radius: 20px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+}
+
+.video-cover {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+h1 {
+  font-size: 3rem;
+  margin-top: 30vh;
+}
+
+ 
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+
+#portfolio, contact{
+        margin-top: 10%;
+}
+
+.portfolio-text{
+        text-align: center;
+        margin-bottom: 5%;
+        color: white;
+
+}
+
+.cards {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr); 
+}
+
+
+.card {
+  padding: 1rem;
+  height: 13rem;
+}
+
+.card img{
+  width: 80%;
+  position: auto;
+}
+
+.project-2-img{
+  height: 80%;
+}
+
+
+
+.project-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #525252;
+  padding: 12px 34px;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+  transition: 1s;
+  background-color: rgb(70, 67, 67);
+  border-radius: 20px;
+}
+
+
+
+
+/*CONTACT section -- Done by Vivek Shivam Yadav */
+
+
+
+.contact__warp {
+	max-width: 802px;
+	padding: 200px 15px 130px;
+	margin: 0 auto;
+}
+
+
+.contact__text p {
+	font-size: 26px;
+  font: bolder;
+	color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contact__form input,
+.contact__form textarea {
+	width: 70%;
+	height: 20px;
+	font-size: 14px;
+	padding: 15px 20px;
+	margin-bottom: 26px;
+	color: black;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contact__form input:focus,
+.contact__form textarea:focus {
+	border: 100px;
+  background-color:beige;
+}
+
+.contact__form textarea {
+	height: 110px;
+	resize: none;
+	margin-bottom: 10px;
+}
+
+
+/* ABOUT section  done by-- Mohd Sarafaraz Alam*/
+
+.about__text {
+	padding-bottom: 100px;
+  padding-top: 10px;
+}
+
+.about__title {
+	display: inline-block;
+	margin-bottom: 50px;
+  margin-left: 10px;
+	position: relative;
+}
+
+
+
+.about__img img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+
+.info {
+	padding-top: 10px;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.para{
+  font-size: 20px;
+  font: bolder;
+	color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
